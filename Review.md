@@ -1,5 +1,4 @@
-###
-## Git/GitHub
+# Git/GitHub
  - 버전관리
  - Git : 로컬저장소, GitHub : 원격저장소 
  - [Markdown](markdown.md)을 활용한 문서 작성
@@ -23,3 +22,37 @@
     - touch : 파일 생성
     - rm : 파일 삭제
     - rm -r : 폴더 삭제하기
+## git
+1. 분산 버전관리
+    - 로컬 편집> 중앙서버에서 버전 관리
+    - 로컬에서도 버전 관리 > 원격 저장소 활용 협업
+2. 버전관리 기초 흐름
+    - 저장소 생성(init). 작업하고 변경된 파일을 모아, 버전으로 남겨 관리
+        - modified : 수정된 상태
+        - staged : 수정한 파일을 곧 커밋할 것이라고 표시한 상태
+        - committed : 커밋이 된 상태
+3. 명령어
+    | 명령어 | 내용 |
+    |------|-----|
+    | git init| 로컬 저장소 생성 |
+    | git add <파일명> | 특정 파일/폴더의 변경사항 추가 |
+    | commit -m'커밋메세지' | 상태확인 |
+    | git log | 버전 확인 |
+    | git status | 상태확인 |
+4. 필수 정보 설정
+    - git config --global user.name "username"
+    - git config --global user.email "my@email.com"
+    - 설정 확인
+        - git config -l
+        - git config --global -l
+        - git config user.name
+    - Git Config?
+        - --system 
+            - /etc/gitconfig
+            - 시스템의 모든 사용자와 모든 저장소에 적용(관리자 권한)
+        - --global
+            - ~/.gitconfig
+            - 현재 사용자에게 적용되는 설정
+        - --local
+            - .git/config
+            - 특정 저장소에만 적용되는 설정
