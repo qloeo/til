@@ -23,7 +23,7 @@ Heading ID | ### My Great Heading {#custom-id} |
 | Definition List | term<br>: definition |
 | Strikethrough | \~\~The world is Flat.\~\~| 
 | Task List | - [x] Write the press release <br> - [ ] Update the website <br> - [ ] Contact the media |
-| Emoji(see also Copying and Pasting Emoji) | That is so funny! \:joy\: :joy: |
+| Emoji(see also Copying and Pasting Emoji) | That is so funny! \:\joy\: :joy: |
 | Highlight | I need to highlight these ==very import words==.
 | Subscript | H~2~0 |
 | Superscript | X^2^ |
