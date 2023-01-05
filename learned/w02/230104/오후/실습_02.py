@@ -6,4 +6,9 @@
 """
 
 number_list = [1, 2, 3, 4, 5]
+count = 0
 
+for number in number_list:
+    count = count + 1
+
+print(count)

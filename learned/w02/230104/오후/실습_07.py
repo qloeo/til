@@ -7,3 +7,9 @@
 
 number_list = [1, 2, 3, 4, 5]
 
+min_value = number_list[0] # 0 기준이면 0이거나 0보다 적은수가 있기때문
+
+for number in number_list:
+    if number < min_value:
+        min_value = number
+print(min_value)

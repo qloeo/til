@@ -6,5 +6,9 @@
 """
 
 number_list = [1, 2, 3, 4, 5]
-print(number_list(list))
+total = 0
 
+for number in number_list:
+    total = total + number
+
+print(total)
