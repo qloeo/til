@@ -11,15 +11,28 @@
 
 """
 
+# dict_variable = {
+#     "이름" : "" ,
+#      "전화번호" : "",
+#      "거주지" : "",
+# }
+# print(dict_variable)
+
+# dict_variable["이름"] = input("이름을 입력하세요 > ")
+# dict_variable["전화번호"] = input("전화번호를 입력하세요 > ")
+# dict_variable["거주지"] = input("거주지를 입력하세요 > ")
+
+# print(dict_variable)
+
+
+name = input("이름을 입력하세요 > ")
+phone_number = input("전화번호를 입력하세요 > ")
+residence = input("거주지를 입력하세요 > ")
 dict_variable = {
-    "이름" : "" ,
-     "전화번호" : "",
-     "거주지" : "",
+    "이름" : name,
+    "전화번호" : phone_number,
+    "거주지" : residence,
 }
 print(dict_variable)
-
-dict_variable["이름"] = input("이름을 입력하세요 > ")
-dict_variable["전화번호"] = input("전화번호를 입력하세요 > ")
-dict_variable["거주지"] = input("거주지를 입력하세요 > ")
-
-print(dict_variable)
+for key, value in dict_variable.items():
+    print(f"{key} : {value}")

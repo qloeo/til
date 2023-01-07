@@ -5,7 +5,13 @@
 string = input("문자열을 입력하세요 > ")
 count = 0
 
-for number in string:
-    count = count + 1
+# for number in string:
+#     count = count + 1
+
+# print(count)
+
+for char in string:
+    if char == "e":
+        count += 1
 
 print(count)
