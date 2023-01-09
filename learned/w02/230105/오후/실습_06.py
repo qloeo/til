@@ -17,7 +17,8 @@ str = "hello"
 # for index, element in enumerate(str_list):
 #     print(element, index)
 
-string = input("문자열을 입력하세요 > ")
+# string = input("문자열을 입력하세요 > ")
+string = [ 'apple', 'apple', 'tomato']
 dict_variable = {}
 for char in string:
     if char in dict_variable.keys():
