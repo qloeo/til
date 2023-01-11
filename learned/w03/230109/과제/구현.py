@@ -54,14 +54,3 @@ print(count)
 a, b, c = map(int, input('숫자를 입력하세요 > ').split())
 print(f'{a}-{b}-{c}')
 
-
-# 문제 6) 양의 정수를 입력받고, 자리수의 합을 출력하세요.
-# 만약, 입력 받은 값이 0보다 작으면 -1을 출력하세요.
-# 단, 양의 정수를 문자열로 변경하지 마세요. str() 함수를 사용하지 마세요.
-numbers = int(input('양의 정수를 입력하세요 > '))
-
-for number in numbers:
-    number += numbers
-    if numbers > 0 :
-        print('-1')
-print(number)
