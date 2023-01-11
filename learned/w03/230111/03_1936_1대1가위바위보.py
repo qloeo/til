@@ -11,6 +11,11 @@
 
 # 가위 1 바위 2 보 3
 # 
-A, B = map(int, input().split())
+a, b = map(int, input().split())
 
-if (a==1 )
+if 
+    print('a')
+else:
+    print('b)')
+
+# ...
