@@ -4,6 +4,8 @@ import sys
 sys.stdin = open("input_parkgolf.txt", "r")
 
 n = int(input())
+
+# 리스트 맵함수로 입력받기.
 name_list = [list(map(str, input().split())) for _ in range(n)]
 print(name_list)
 

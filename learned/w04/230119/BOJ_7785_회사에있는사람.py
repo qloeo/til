@@ -25,19 +25,19 @@ for key, value in log_dic.items():
 
 
 
-### 인덱스로 키와 값 넣기
-# inout_dic = {'Baha': 'leave', 'Askar': 'enter', 'Artem': 'enter'}
+# ### 인덱스로 키와 값 넣기
+# # inout_dic = {'Baha': 'leave', 'Askar': 'enter', 'Artem': 'enter'}
 
-Test_Case = int(input())
-log_dic ={}
+# Test_Case = int(input())
+# log_dic ={}
 
-for t in range(Test_Case):
-    name = input().split()
-    log_dic[name[0]] = name[1]
-#     # print(log_dic)
-#     # 키가 같을 경우 새로운 값으로 대체되기때문에 Baha는 leave로 바뀐다.
+# for t in range(Test_Case):
+#     name = input().split()
+#     log_dic[name[0]] = name[1]
+# #     # print(log_dic)
+# #     # 키가 같을 경우 새로운 값으로 대체되기때문에 Baha는 leave로 바뀐다.
 
-for key, value in log_dic.items():
-    # print(key, value)
-    if value == 'enter':
-        print(key)
+# for key, value in log_dic.items():
+#     # print(key, value)
+#     if value == 'enter':
+#         print(key)
